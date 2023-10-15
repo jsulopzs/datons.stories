@@ -1,0 +1,10 @@
+{
+    "name": "JupyterLab Dev Container",
+    "dockerFile": "Dockerfile",
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": ["ms-python.python"],
+    "postStartCommand": "jupyter lab --ip 0.0.0.0 --no-browser &"
+  }
+  
