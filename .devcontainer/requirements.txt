@@ -1,5 +1,11 @@
-pandas
-plotly
-seaborn
+backtesting
+pandas<2
 openpyxl
+plotly
+nbformat>=4.2
+ipykernel
+jupyterlab
 xlrd
+html5lib
+scikit-optimize
+scikit-learn
