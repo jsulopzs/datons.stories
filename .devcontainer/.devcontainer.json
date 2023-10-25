@@ -8,6 +8,5 @@
 			"NODE_VERSION": "lts/*"
 		}
 	},
-	"remoteUser": "jupyterlab",
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
 }

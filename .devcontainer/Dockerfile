@@ -9,11 +9,11 @@ RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requ
 
 RUN python -m ipykernel install --user
 
-# # Install Jupyter Lab
-# RUN pip install jupyterlab
+# Install Jupyter Lab
+RUN pip install jupyterlab
 
-# # Expose the port the app runs on
-# EXPOSE 8888
+# Expose the port the app runs on
+EXPOSE 8888
 
-# # Command to run the application
-# CMD ["jupyter", "lab", "--ip='0.0.0.0'", "--port=8888", "--no-browser", "--allow-root"]
+# Command to run the application
+CMD ["jupyter", "lab", "--ip='0.0.0.0'", "--port=8888", "--no-browser", "--allow-root"]
