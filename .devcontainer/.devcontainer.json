@@ -5,8 +5,8 @@
 		"context": "..",
 		"args": {
 			"VARIANT": "3.10", // Set Python version here
-			"NODE_VERSION": "lts/*"
 		}
 	},
+	"remoteUser": "vscode",
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
 }
